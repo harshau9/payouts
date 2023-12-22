@@ -7,3 +7,4 @@ For my project with mydukaan.io, I successfully created a static payout page mir
 ## SnapShots
 
 ### Payout-page
+![dukaan](https://github.com/harshau9/payouts/assets/31920143/850bcfac-9e96-4d23-b470-8a547e1c3bf9)
