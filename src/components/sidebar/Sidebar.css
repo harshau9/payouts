@@ -1,0 +1,105 @@
+aside {
+  position: sticky;
+  height: 100vh;
+  color: #ccc;
+  inset: 0;
+  width: 224px;
+  background-color: #1e2640;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.logo img {
+  height: 39px;
+  width: 39px;
+  border-radius: 4px;
+}
+
+.info h5 {
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.profile {
+  padding: 16px 16px 20px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-flex {
+  display: flex;
+  gap: 12px;
+}
+
+.info p {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.info p:hover {
+  color: white;
+}
+
+.sidebar-submenu-cont {
+  padding: 8px;
+  list-style: none;
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.labelbar {
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 16px;
+  font-size: 14px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 5px;
+}
+
+.labelbar:hover {
+  cursor: pointer;
+  background-color: #ffffff0d;
+}
+.active-labelbar {
+  border-radius: 4px;
+  display: flex;
+  padding: 8px 16px;
+  font-size: 14px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 5px;
+  background-color: #ffffff0d;
+  color: white;
+}
+
+.bottom-bar {
+  background-color: #353C53;
+  margin: auto 16px;
+  padding: 6px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.avail-credit {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.avail-credit h6 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.avail-credit p {
+  font-weight: 500px;
+  font-size: 16px;
+}
