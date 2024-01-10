@@ -419,7 +419,7 @@ function Maincontent() {
                   <td className="odr-status">
                     <div className="done"></div>Successful
                   </td>
-                  <td class="odr-txn-id">131634495742</td>
+                  <td className="odr-txn-id">131634495742</td>
                   <td className="odr-date">15 Jul 2023, 03:00 PM</td>
                   <td className="odr-price">₹3,788.00</td>
                 </tr>
